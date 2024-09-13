@@ -1,0 +1,101 @@
+
+.thumbnail{
+  cursor: pointer;
+  width: 100%;
+}
+
+.thumbnail-container{
+  cursor: pointer;
+ position: relative;
+ margin-bottom: 0px;
+}
+ 
+
+
+.video-title{
+font-weight: 500;
+font-size: 14px;
+color: rgb(0, 0, 0);
+line-height: 20px;
+cursor: pointer;
+font-family: Roboto , arial ;
+width: 100%;
+margin-bottom: 0px;
+margin-top: 8px;
+}
+
+.video-author{
+  margin-top : 8px;
+  margin-bottom: 0px;
+  cursor: pointer;
+  line-height: 18px;
+  font-size: 12px;
+  color: rgb(96, 96, 96);
+  font-weight: 400;
+    font-family: Roboto , arial ;
+}
+.video-stats{
+  margin-top: 0px;
+
+  line-height: 18px;
+  font-size: 12px;
+  color: rgb(96, 96, 96);
+  font-weight: 400;
+  font-family: Roboto , arial ;
+}
+ 
+
+.profile{
+  border-radius: 50px;
+  width:100%;
+  cursor: pointer;
+  width:36px;
+  margin-top:8px;
+}
+
+.video-grid-info{
+display: grid;
+grid-template-columns :48px 1fr ; 
+}
+
+.video-grid{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+ column-gap: 8px;
+ row-gap: 16px;
+ padding: 20px;
+
+}
+
+.timestamp{
+  position: absolute;
+  bottom: 10.5px;
+  right: 4px;
+  background-color:rgb(0, 0, 0 , 0.9) ;
+  color: white;
+  z-index: 2;
+  padding: 4px 4px;
+  font: 12px Roboto,Arial,Sans-serif;
+  border-radius: 2px;
+  font-weight: 500;
+}
+
+.video-card{
+  padding: 4px;
+  vertical-align: top;
+}
+
+@media (max-width:600px){
+.video-grid{
+  grid-template-columns : 1fr 1fr;
+
+
+}}
+
+@media (max-width:1100px){
+  .video-grid{
+    grid-template-columns : 1fr 1fr 1fr;
+  
+  
+  }}
+
